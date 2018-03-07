@@ -19,6 +19,10 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Install node_modules
+          command: npm install
+      - sleep 10
+      - run:
           name: Tests
           command: npm test
 
