@@ -1,0 +1,27 @@
+{
+  "name": "nightwatch-chimp-circleci-demos",
+  "description": "",
+  "version": "0.0.1",
+  "author": {
+    "name": "Thirumurugan",
+    "email": "thiru.m@chimpfund.com"
+  },
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nightwatchjs/nightwatch.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch --env circleci",
+    "test-chrome": "./node_modules/.bin/nightwatch --env chrome",
+    "test-parallel": "./node_modules/.bin/nightwatch --env chrome,firefox"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chromedriver": "^2.35.0",
+    "geckodriver": "^1.4.0",
+    "nightwatch": "git://github.com/nightwatchjs/nightwatch.git",
+    "selenium-server-standalone-jar": "3.4.0"
+  }
+}
