@@ -22,7 +22,7 @@ jobs:
           command: npm install
       - run:
           name: Selenium run
-          command: java -jar ./node_modules/selenium-servertandalone-jar/jar/selenium-server-standalone-3.4.0.jar
+          command: java -jar ./node_modules/selenium-servertandalone-jar/jar/selenium-server-standalone-3.9.1.jar
           background: true
       - run:
           name: Tests

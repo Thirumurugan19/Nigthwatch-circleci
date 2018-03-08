@@ -22,6 +22,6 @@
     "chromedriver": "^2.9.1-0",
     "geckodriver": "^1.4.0",
     "nightwatch": "git://github.com/nightwatchjs/nightwatch.git",
-    "selenium-server-standalone-jar": "3.4.0"
+    "selenium-server-standalone-jar": "3.9.1"
   }
 }
