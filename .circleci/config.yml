@@ -21,10 +21,6 @@ jobs:
           name: Install node_modules
           command: npm install
       - run:
-          name: Selenium run
-          command: java -jar ./node_modules/selenium-servertandalone-jar/jar/selenium-server-standalone-3.9.1.jar
-          background: true
-      - run:
           name: Tests
           command: npm test
 

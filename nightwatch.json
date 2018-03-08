@@ -11,7 +11,7 @@
     "server_path" : "./node_modules/selenium-server-standalone-jar/jar/selenium-server-standalone-3.9.1.jar",
     "log_path" : "",
     "host" : "127.0.0.1",
-    "port" : 4444,
+    "port" : 4445,
     "cli_args" : {
       "webdriver.chrome.driver" : "./node_modules/.bin/chromedriver",
       "webdriver.gecko.driver": "./node_modules/.bin/geckodriver"
@@ -22,7 +22,7 @@
     "default" : {
       "launch_url" : "http://localhost",
       "selenium_host" : "localhost",
-      "selenium_port" : 4444,
+      "selenium_port" : 4445,
       "screenshots" : {
         "enabled" : false,
         "path" : ""
