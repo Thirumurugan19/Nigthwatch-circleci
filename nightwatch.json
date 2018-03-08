@@ -29,7 +29,8 @@
         
       },
       "desiredCapabilities" : {
-        "browserName" : "firefox"
+        "browserName" : "firefox",
+        "marionette" : false
       }
     },
 
