@@ -20,13 +20,13 @@
 
   "test_settings" : {
     "default" : {
-      "launch_url" : "http://demo.chimp.net",
-      "selenium_host" : "127.0.0.1",
+      "launch_url" : "http://localhost",
+      "selenium_host" : "localhost",
       "selenium_port" : 4444,
       "screenshots" : {
-        "enabled" : true,
-        "path" : "./screens",
-        "on_failure" : true
+        "enabled" : false,
+        "path" : ""
+        
       },
       "desiredCapabilities" : {
         "browserName" : "firefox"
