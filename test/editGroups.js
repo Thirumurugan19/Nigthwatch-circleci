@@ -3,7 +3,7 @@ module.exports = {
         client.windowMaximize();
     },
 
-    'Groups: Verify if group is available - Group Landing page': function (client) {
+/*    'Groups: Verify if group is available - Group Landing page': function (client) {
       client        
         .url('https://24467.org/groups/team-rocket')                
         .waitForElementVisible('body', 10000)        
@@ -23,7 +23,7 @@ module.exports = {
           .end();
     },
 
-    'Groups: Group edit URL should be redirected to Log In page': function (client) {
+     'Groups: Group edit URL should be redirected to Log In page': function (client) {
         client        
           .url('https://24467.org/groups/team-rocket/edit')                
           .waitForElementVisible('body', 10000)        
@@ -78,6 +78,8 @@ module.exports = {
           .pause(2000)
           .end();
     },
+
+    */
 
     'Groups: Modify Basic Settings in group edit page': function (client) {
         client        
