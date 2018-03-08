@@ -14,8 +14,8 @@
     "port" : 4444,
     "cli_args" : {
       "webdriver.chrome.driver" : "./node_modules/.bin/chromedriver",
-      "webdriver.firefox.profile" : ""
-    }
+      "webdriver.gecko.driver": "./node_modules/.bin/geckodriver"
+          }
   },
 
   "test_settings" : {
