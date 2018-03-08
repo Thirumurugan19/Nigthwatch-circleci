@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "chai": "^3.5.0",
-    "chromedriver": "^2.35.0",
+    "chromedriver": "^2.9.1-0",
     "geckodriver": "^1.4.0",
     "nightwatch": "git://github.com/nightwatchjs/nightwatch.git",
     "selenium-server-standalone-jar": "3.4.0"
